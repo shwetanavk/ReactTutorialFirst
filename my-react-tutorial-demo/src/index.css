@@ -20,7 +20,7 @@ body {
 }
 
 .book {
-  background: burlywood;
+  background: rgb(238, 219, 192);
   border-radius: 1rem;
   padding: 1rem 2rem;
 }
