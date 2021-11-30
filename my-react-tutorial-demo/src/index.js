@@ -26,30 +26,12 @@ function BookList() {
 const Book = () => {
   return (
     <article className="book">
-      <Image />
-      <BookName />
-      <BookAuthor />
+      <img
+        src="https://m.media-amazon.com/images/I/81YPgi4vpDL._AC_UY218_.jpg"
+        alt=""
+      />
+      <h1>Book Thief</h1>;<h4>Author: Markus Zusak</h4>
     </article>
-  );
-};
-
-const Image = () => {
-  return (
-    <img
-      src="https://m.media-amazon.com/images/I/81YPgi4vpDL._AC_UY218_.jpg"
-      alt=""
-    />
-  );
-};
-
-const BookName = () => {
-  return <h1>Book Thief</h1>;
-};
-const BookAuthor = () => {
-  return (
-    <h4 style={{ color: "Blue", fontSize: "0.75rem", marginTop: "0.25rem" }}>
-      Author: Markus Zusak
-    </h4>
   );
 };
 
